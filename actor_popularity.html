@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="0d1e562d-5d2e-407b-8a3a-00f7ab2de0ed"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"c1bac128-8a7d-41bb-ab73-5890f3954c5d":{"roots":{"references":[{"attributes":{"axis_label":"Movie Profits($)","formatter":{"id":"10bafd7e-9d98-4928-8fbb-018debdbf6e4","type":"BasicTickFormatter"},"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"},"ticker":{"id":"ac59621f-f741-43b5-82ee-2027dedd4c0e","type":"BasicTicker"}},"id":"0b882354-6fd1-425d-ae3f-a03080a22a9a","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"42dd1fe4-408a-42de-bae1-80faaa4e35e7","type":"PanTool"},{"id":"4cb3380f-93fe-4159-a1e8-2a2f1d101c1b","type":"WheelZoomTool"},{"id":"5e7bba71-ccff-4246-8895-fc18b9846d72","type":"BoxZoomTool"},{"id":"b0895a8c-b870-4a01-8931-2ce345716e29","type":"SaveTool"},{"id":"fbf8be8c-0814-4f16-9791-e22801ca1bfa","type":"ResetTool"},{"id":"126c684d-73be-412e-b308-938a37ff6fae","type":"HelpTool"}]},"id":"5d6f08fb-4120-4444-9747-0f9894e7f352","type":"Toolbar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"bf9c6f4a-a60d-41c6-b5b1-7f84fe6df1b5","type":"BoxAnnotation"},{"attributes":{"location":"top_left","plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"}},"id":"5234fdc9-c202-415a-bdb0-da372eb9e5b8","type":"Legend"},{"attributes":{"plot":null,"text":"Nicolas Cage popularity over time"},"id":"9e541e38-3f8e-4398-a0bd-803ff1962258","type":"Title"},{"attributes":{"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"}},"id":"42dd1fe4-408a-42de-bae1-80faaa4e35e7","type":"PanTool"},{"attributes":{"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"},"ticker":{"id":"5412dcb3-7361-42ea-830a-9c1546ef2d40","type":"BasicTicker"}},"id":"3e8c6a86-751d-4d5d-9f67-9b855a39e950","type":"Grid"},{"attributes":{"overlay":{"id":"bf9c6f4a-a60d-41c6-b5b1-7f84fe6df1b5","type":"BoxAnnotation"},"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"}},"id":"5e7bba71-ccff-4246-8895-fc18b9846d72","type":"BoxZoomTool"},{"attributes":{"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"}},"id":"4cb3380f-93fe-4159-a1e8-2a2f1d101c1b","type":"WheelZoomTool"},{"attributes":{},"id":"ac59621f-f741-43b5-82ee-2027dedd4c0e","type":"BasicTicker"},{"attributes":{"axis_label":"Time","formatter":{"id":"e429e838-35de-4409-b5dc-6d8d7c5cd31f","type":"BasicTickFormatter"},"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"},"ticker":{"id":"5412dcb3-7361-42ea-830a-9c1546ef2d40","type":"BasicTicker"}},"id":"41c65809-076d-4012-8e0b-c2fb21a1ac54","type":"LinearAxis"},{"attributes":{"callback":null,"end":2019.4,"start":1978.6},"id":"09a91437-e043-453b-b31c-652eb21b2d85","type":"Range1d"},{"attributes":{"callback":null,"end":475864029.1,"start":-93033772.1},"id":"65d98da5-834c-4d16-af16-e0fd88fd4145","type":"Range1d"},{"attributes":{},"id":"10bafd7e-9d98-4928-8fbb-018debdbf6e4","type":"BasicTickFormatter"},{"attributes":{"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"}},"id":"b0895a8c-b870-4a01-8931-2ce345716e29","type":"SaveTool"},{"attributes":{"data_source":{"id":"b5e84fd1-e2f6-43f7-9c06-15cda5868e46","type":"ColumnDataSource"},"glyph":{"id":"12336509-7dde-4d96-9ee4-92ac854b28e6","type":"Line"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"79cb9a19-f1ea-404f-9c09-b264e07f0141","type":"GlyphRenderer"},{"attributes":{"line_color":{"value":"#f22c40"},"line_width":{"value":2},"x":{"field":"x_values"},"y":{"field":"y_values"}},"id":"12336509-7dde-4d96-9ee4-92ac854b28e6","type":"Line"},{"attributes":{"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"}},"id":"fbf8be8c-0814-4f16-9791-e22801ca1bfa","type":"ResetTool"},{"attributes":{},"id":"e429e838-35de-4409-b5dc-6d8d7c5cd31f","type":"BasicTickFormatter"},{"attributes":{},"id":"5412dcb3-7361-42ea-830a-9c1546ef2d40","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"},"ticker":{"id":"ac59621f-f741-43b5-82ee-2027dedd4c0e","type":"BasicTicker"}},"id":"7afd1987-2db7-40e4-ae38-9078badc8236","type":"Grid"},{"attributes":{"below":[{"id":"41c65809-076d-4012-8e0b-c2fb21a1ac54","type":"LinearAxis"}],"css_classes":null,"left":[{"id":"0b882354-6fd1-425d-ae3f-a03080a22a9a","type":"LinearAxis"}],"renderers":[{"id":"bf9c6f4a-a60d-41c6-b5b1-7f84fe6df1b5","type":"BoxAnnotation"},{"id":"79cb9a19-f1ea-404f-9c09-b264e07f0141","type":"GlyphRenderer"},{"id":"5234fdc9-c202-415a-bdb0-da372eb9e5b8","type":"Legend"},{"id":"41c65809-076d-4012-8e0b-c2fb21a1ac54","type":"LinearAxis"},{"id":"0b882354-6fd1-425d-ae3f-a03080a22a9a","type":"LinearAxis"},{"id":"3e8c6a86-751d-4d5d-9f67-9b855a39e950","type":"Grid"},{"id":"7afd1987-2db7-40e4-ae38-9078badc8236","type":"Grid"}],"title":{"id":"9e541e38-3f8e-4398-a0bd-803ff1962258","type":"Title"},"tool_events":{"id":"69cb3d8f-7d0b-475a-9566-863965e6a5d1","type":"ToolEvents"},"toolbar":{"id":"5d6f08fb-4120-4444-9747-0f9894e7f352","type":"Toolbar"},"x_mapper_type":"auto","x_range":{"id":"09a91437-e043-453b-b31c-652eb21b2d85","type":"Range1d"},"y_mapper_type":"auto","y_range":{"id":"65d98da5-834c-4d16-af16-e0fd88fd4145","type":"Range1d"}},"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"},{"attributes":{"callback":null,"column_names":["x_values","y_values"],"data":{"chart_index":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"x_values":[1982,1983,1984,1986,1987,1988,1990,1993,1995,1996,1997,1998,1999,2000,2001,2002,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2016],"y_values":[22592880,9488076,-45625622,23382841,23180280,-1274869,5060247,-6000000,46200000,260062621,314688380,174576523,56618699,211947382,5112895,-23570562,247451894,-25389330,103882096,352350471,-2512610,212944372,133472645,88217023,-44827092,428455879,316368252,126727300]}},"id":"b5e84fd1-e2f6-43f7-9c06-15cda5868e46","type":"ColumnDataSource"},{"attributes":{"plot":{"id":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d","subtype":"Chart","type":"Plot"}},"id":"126c684d-73be-412e-b308-938a37ff6fae","type":"HelpTool"},{"attributes":{},"id":"69cb3d8f-7d0b-475a-9566-863965e6a5d1","type":"ToolEvents"}],"root_ids":["a1ad1c59-4a3e-41d2-8242-139b5e8ec09d"]},"title":"Bokeh Application","version":"0.12.4"}};
+              var render_items = [{"docid":"c1bac128-8a7d-41bb-ab73-5890f3954c5d","elementid":"0d1e562d-5d2e-407b-8a3a-00f7ab2de0ed","modelid":"a1ad1c59-4a3e-41d2-8242-139b5e8ec09d"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
